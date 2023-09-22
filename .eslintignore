@@ -1,0 +1,4 @@
+src/wxcomponents
+!.eslintrc.js
+!.prettierrc.js
+dist/*

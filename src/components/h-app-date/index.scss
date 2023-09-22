@@ -1,0 +1,14 @@
+/* 日历周数 */
+.calendar_week {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16rpx 0rpx 24rpx;
+}
+.calendar_week .calendar_week__item {
+  width: calc(100% / 7);
+  text-align: center;
+  color: #333333;
+  font-size: 26rpx;
+  font-weight: bold;
+}

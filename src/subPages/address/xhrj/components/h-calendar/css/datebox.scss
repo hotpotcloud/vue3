@@ -1,0 +1,166 @@
+/* 日历轮播 */
+.date_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.date_box .calendar_date__box {
+  width: calc(100% / 7);
+  margin-top: 16rpx;
+  // background: #71c5ff;
+  .day-by-week {
+    border: 2rpx solid transparent;
+    text-align: center;
+    color: #666666;
+    // width: 82rpx;
+    max-height: 194rpx;
+    background: #fff;
+    padding: 16rpx 4rpx 4rpx;
+    border-radius: 16rpx;
+    overflow: hidden;
+    .active {
+      &-WAIT_DELIVERY {
+        color: #fff;
+        background: #71c5ff;
+      }
+      &-DELIVERING {
+        color: #fff;
+        background: #71c5ff;
+      }
+      // 停送
+      &-DISCONTINUED {
+        color: #fff;
+        background: #f4b935;
+      }
+      &-WAIT_COMMENT {
+        color: #fff;
+        background: #71c5ff;
+      }
+      //已完成
+      &-FINISHED {
+        color: #fff;
+        background: #c7c7c7;
+      }
+      &-CANCELLED {
+        color: #fff;
+        background: #ffa217;
+      }
+    }
+  }
+  .today-week {
+    font-weight: bold;
+    color: #1d9bdc;
+  }
+  .avtiveday {
+    background: #e4f4ff;
+    border-color: #8bd0ff;
+    color: #1d9bdc;
+  }
+}
+/* 日历轮播 */
+
+/* 新加
+ */
+.el-box {
+  // background: #f4b935;
+  margin-bottom: 8rpx;
+  padding: 0 4rpx;
+}
+.el-img {
+  width: 30rpx;
+  height: 32rpx;
+  border-radius: 4rpx;
+}
+.el-qty {
+  color: #999999;
+  font-size: 22rpx;
+}
+.el-qty-select {
+  color: #1d9bdc !important;
+}
+// 日期
+.weekday,
+.monthday {
+  line-height: 42rpx;
+  font-size: 30rpx;
+}
+.activeweek {
+  font-weight: bold;
+}
+/* 状态标签 */
+.status-tag {
+  font-size: 18rpx;
+  border-radius: 12rpx;
+  margin-top: 8rpx;
+  padding: 0rpx 10rpx;
+  font-weight: bold;
+  //待配送&配送中
+  &.WAIT_DELIVERY,
+  .DELIVERING {
+    color: #71c5ff;
+  }
+  &.WAIT_COMMENT {
+    color: #71c5ff;
+  }
+  // 停送
+  &.DISCONTINUED {
+    color: #f4b935;
+  }
+  //已完成
+  &.FINISHED {
+    color: #c7c7c7;
+  }
+  &.CANCELLED {
+    color: #ffa217;
+  }
+}
+
+//月视图
+.day-by-month {
+  border: 2rpx solid transparent;
+  text-align: center;
+  color: #666666;
+  //   width: 82rpx;
+  height: 194rpx;
+  background: #fff;
+  padding: 16rpx 4rpx 4rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+  .active {
+    &-WAIT_DELIVERY {
+      color: #fff;
+      background: #71c5ff;
+    }
+    &-DELIVERING {
+      color: #fff;
+      background: #71c5ff;
+    }
+    // 停送
+    &-DISCONTINUED {
+      color: #fff;
+      background: #f4b935;
+    }
+    &-WAIT_COMMENT {
+      color: #fff;
+      background: #71c5ff;
+    }
+    //已完成
+    &-FINISHED {
+      color: #fff;
+      background: #c7c7c7;
+    }
+    &-CANCELLED {
+      color: #fff;
+      background: #ffa217;
+    }
+  }
+}
+.active-month {
+  border-color: #8bd0ff;
+  color: #1d9bdc;
+  background-color: #e4f4ff;
+}
+// 非本月
+.sleep-month {
+  color: #a9a9a9;
+}

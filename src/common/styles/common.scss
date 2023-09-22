@@ -1,0 +1,756 @@
+/*每个页面公共css */
+page {
+  font-size: 26rpx;
+  color: #333;
+  font-family: PingFang SC-Regular, PingFang SC;
+  overflow-y: auto;
+  // background: transparent;
+  // background: #f5f5f5 ;
+}
+button::after {
+  border: none;
+}
+image {
+  // border: 1rpx solid #f3f3f3;
+  border-radius: 8rpx;
+}
+.newcolor {
+  color: #1d9bdc;
+}
+.no-border {
+  border: none !important;
+}
+
+// 公共卡片样式
+.common-card {
+  padding: 24rpx;
+  background: #ffffff;
+  border-radius: 24rpx;
+  font-family: PingFang SC-Regular, PingFang SC;
+  margin-bottom: 16rpx;
+}
+
+::v-deep .u-tag-wrapper {
+  .u-tag--primary {
+    background-color: #1d9bdc !important;
+    border-color: #1d9bdc !important;
+  }
+
+  .u-tag--primary {
+    background-color: #999999 !important;
+    border-color: #999999 !important;
+  }
+
+  .u-tag--primary--plain {
+    border-color: #1d9bdc !important;
+
+    .u-tag__text--primary--plain {
+      color: #1d9bdc !important;
+    }
+  }
+}
+
+.content {
+  padding: 0 40rpx;
+}
+
+// 公用样式
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// body {
+//   font-family: PingFang SC-Medium, PingFang SC;
+// }
+.h-size32 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+
+// main为主要样式
+.h-main-color {
+  color: #f86c4d !important;
+}
+
+.main-fff {
+  background-color: $uni-text-color-inverse;
+}
+.h-left-m-32 {
+  margin-left: 32rpx;
+}
+
+.main-padding {
+  padding: 0 40rpx;
+}
+
+.main-car-padding {
+  padding: 0 29rpx 0 43rpx;
+}
+
+.mian-size {
+  font-size: 34rpx;
+  // font-weight: bold;
+  color: #000000;
+  line-height: 40rpx;
+}
+.main-font-b {
+  font-weight: bold;
+}
+
+.mian-color {
+  color: #000000;
+}
+
+.tags {
+  color: #e2630c;
+  font-size: 22rpx;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex0-1 {
+  flex: 1;
+  min-width: 0;
+}
+
+// flex
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-sb {
+  justify-content: space-between;
+}
+.d-start {
+  align-items: flex-start;
+}
+.d-item-center {
+  justify-items: center;
+}
+.d-center {
+  justify-content: center;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-warp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex-nowarp {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.d-flex-se {
+  display: flex;
+  justify-content: space-evenly;
+}
+.d-se {
+  justify-content: space-evenly !important;
+}
+
+.d-flex-colum {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-colum-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.d-flex-row-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.d-nopadding {
+  padding: 0 !important;
+}
+
+// 行高
+.sub-line-h {
+  line-height: 28rpx;
+}
+
+//次要样式
+.color-99 {
+  color: #999999;
+}
+// 字体样式
+.color70 {
+  color: rgba(255, 255, 255, 0.7);
+}
+.color1 {
+  color: #fff;
+}
+.f22 {
+  font-size: 22rpx;
+}
+.f24 {
+  font-size: 24rpx;
+}
+.f28 {
+  font-size: 28rpx;
+}
+.f30 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.f32 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.f48 {
+  font-weight: bold;
+  font-size: 48rpx;
+}
+
+.text-center {
+  text-align: center;
+}
+
+//字体
+.font-center {
+  text-align: center;
+}
+
+.font-ios {
+  font-weight: 600 !important;
+}
+
+.font-android {
+  font-weight: 700 !important;
+}
+
+.font-22 {
+  font-size: 22rpx;
+  font-family: PingFang SC-Regular, PingFang SC;
+}
+.font-22-6w {
+  font-size: 22rpx;
+  font-family: PingFang SC-Regular, PingFang SC;
+  color: #666666;
+  font-weight: bold;
+}
+
+.font-26-6 {
+  font-size: 26rpx;
+  color: #666666;
+  font-family: PingFang SC-Medium, PingFang SC;
+}
+
+.font-26-a9 {
+  font-size: 26rpx;
+  color: #a9a9a9;
+}
+.font-26-33 {
+  font-size: 26rpx;
+  color: #333333;
+  font-family: PingFang SC-Medium, PingFang SC;
+}
+
+.font-26 {
+  font-size: 26rpx;
+}
+.font-w-red {
+  color: #f86c4d;
+  font-weight: bold;
+}
+.font-26-w {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #000000;
+}
+.font-28-w {
+  @extend .font-26-w;
+  font-size: 28rpx;
+}
+
+.font-17 {
+  font-size: 17rpx;
+  color: #666666;
+}
+.font-24 {
+  font-size: 24rpx;
+  color: #999999;
+}
+
+.h-font-30 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.h-fs-30 {
+  font-size: 30rpx;
+}
+.sub-color {
+  color: #9a9a9a;
+}
+.money-icon-small {
+  font-size: 28rpx;
+  margin-right: 4rpx;
+  // font-weight: bold;
+}
+.money-icon {
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-right: 4rpx;
+}
+
+.color-33 {
+  color: #333333 !important;
+  // color: #1d9bdc;
+}
+
+.sub-color-size {
+  font-size: 26rpx;
+}
+.h-block {
+  display: block;
+}
+
+.sub-color {
+  color: #666666; //文字灰色
+}
+
+// 按钮边框线
+.h-odd-border {
+  //起始行
+  border-top: 1rpx solid #e5e5e5;
+}
+.h-bott-border {
+  padding-bottom: 24rpx;
+  border-bottom: 2rpx solid #f4f4f4;
+}
+.h-solid-bottom,
+.h-solid-top {
+  position: relative;
+}
+.h-solid-bottom::after,
+.h-solid-top::after {
+  content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.h-solid-bottom::after {
+  border-bottom: 2rpx solid rgba(0, 0, 0, 0.1);
+}
+.h-solid-top::after {
+  border-top: 2rpx solid rgba(0, 0, 0, 0.1);
+}
+.h-padding-top {
+  padding-top: 52rpx;
+}
+
+.h-padding-updown {
+  padding: 36rpx 0;
+  // background-color: #1d9bdc;
+}
+
+.h-margin-top {
+  margin-top: 52rpx;
+}
+.h-margin-top16 {
+  margin-top: 16rpx;
+}
+.h-margin-bot16 {
+  margin-bottom: 16rpx;
+}
+.h-margin-rig16 {
+  margin-right: 16rpx;
+}
+.h-margin-rig8 {
+  margin-right: 8rpx;
+}
+.h-margin-10rpx {
+  margin: 10rpx 0;
+}
+.h-margin-rig48 {
+  margin-right: 48rpx;
+}
+
+.h-even-border {
+  //其余行
+  padding-bottom: 52rpx;
+  border-bottom: 2rpx solid #f4f4f4;
+  // margin-bottom: 52rpx;
+}
+
+.h-type-short {
+  margin-top: 32rpx;
+}
+
+.h-subtext {
+  margin-bottom: 16rpx !important;
+}
+
+.h-subfont {
+  font-size: 26rpx;
+}
+
+.h-bigweight {
+  font-weight: bold;
+}
+.h-empty {
+  height: 170rpx;
+  width: 100%;
+  // background-color: #1d9bdc;
+  margin-bottom: 100rpx;
+}
+
+.h-tag {
+  color: #f86c4d;
+  font-size: 22rpx;
+  // line-height: 26rpx;
+  line-height: 29rpx;
+  // height: 30rpx;
+  padding: 0 8rpx;
+  border: 0.5rpx solid #f86c4d;
+  border-radius: 8rpx;
+  max-width: 234rpx;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16rpx;
+}
+
+.h-tag-no {
+  color: #e2630c;
+  font-size: 22rpx;
+  line-height: 26rpx;
+  height: 30rpx;
+  padding: 0 8rpx;
+  border: 1rpx solid #e2630c;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+}
+
+// 超出省略2行
+.h-overflow-2 {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 72rpx !important;
+}
+
+.h-over-1 {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+// 超出省略2行
+.h-overflow-8-2 {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 80rpx !important;
+}
+.h-overflow-88-2 {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 88rpx !important;
+}
+
+// 标签
+.h-sale-tag {
+  font-size: 22rpx;
+  color: #f86c4d;
+  padding: 0 8rpx;
+  border: 0.5rpx solid #e2630c;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  text-align: center;
+  min-width: 60rpx;
+  max-width: 234rpx;
+  // line-height: 30rpx;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 首页分类的标签
+.h-home-tag {
+  font-size: 22rpx;
+  color: #f86c4d;
+  padding: 0 8rpx;
+  border: 0.5rpx solid #f86c4d;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  text-align: center;
+  min-width: 60rpx;
+  max-width: 234rpx;
+  // line-height: 30rpx;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 价格prcie
+.h-home-price {
+  font-size: 34rpx;
+  color: #f86c4d;
+}
+
+.h-ticket {
+  margin-right: 16rpx;
+  border-radius: 8rpx;
+  width: 90rpx;
+  line-height: 29rpx;
+  border: 0.5rpx solid rgba(226, 99, 12, 1);
+  position: relative;
+  font-size: 22rpx;
+  text-align: center;
+  // line-height: 25rpx;
+  padding: 0 8rpx;
+  color: #f86c4d;
+}
+
+.h-ticket::after {
+  content: "";
+  display: inline-block;
+  width: 7rpx;
+  height: 12rpx;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: -2rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0.5rpx solid rgba(226, 99, 12, 1);
+  border-radius: 0 100% 100% 0/50%;
+  border-left: none;
+  z-index: 1;
+}
+
+.h-ticket::before {
+  content: "";
+  display: inline-block;
+  width: 7rpx;
+  height: 12rpx;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: -2rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0.5rpx solid rgba(226, 99, 12, 1);
+  border-radius: 100% 0 0 100%/50%;
+  border-right: none;
+  z-index: 1;
+}
+
+//秒杀
+.seckill-tag {
+  background-color: #f86c4d;
+  color: #ffffff;
+  font-size: 22rpx;
+  line-height: 26rpx;
+  font-weight: 400 !important;
+  // width: 46rpx;
+  border-radius: 8rpx;
+  padding: 0 8rpx;
+  margin-right: 8rpx;
+}
+
+// 到底了
+.font-bottom {
+  font-size: 26rpx;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.spike-tag {
+  width: 62rpx;
+  height: 30rpx;
+  background: #f86c4d;
+  border-radius: 8rpx;
+  text-align: center;
+  line-height: 30rpx;
+  color: #fff;
+  font-size: 22rpx;
+  display: inline-block;
+  margin-right: 8rpx;
+}
+// 配送规律标签
+.h-send-rule {
+  color: $uni-color-primary;
+  height: 30rpx;
+  line-height: 30rpx;
+  border: 2rpx solid $uni-color-primary;
+  border-radius: 8rpx;
+  font-size: 22rpx;
+  padding: 0 8rpx;
+  margin-right: 14rpx;
+}
+
+// 商品详情属性
+.h-attribute {
+  color: #999999;
+  font-size: 26rpx;
+  // font-weight: bold;
+  margin-bottom: 16rpx;
+  min-width: 136rpx;
+  max-width: 496rpx;
+  padding: 16rpx;
+  height: 68rpx;
+  text-align: center;
+  background: #f4f4f4;
+  border-radius: 16rpx;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-left: 32rpx;
+  &.h-attribute-active {
+    background-color: #1d9bdc;
+    color: #fff;
+  }
+  &.h-attribute-min {
+    width: 136rpx;
+    margin-left: 32rpx;
+  }
+  &.h-attribute-max {
+    width: 496rpx;
+  }
+}
+//地址
+.h-add-tag {
+  display: inline-block;
+  width: 80rpx;
+  height: 44rpx;
+  background-color: #e4f4ff;
+  color: #1d9bdc;
+  border-radius: 8rpx;
+  text-align: center;
+  line-height: 44rpx;
+  margin-left: 32rpx;
+  font-size: 26rpx;
+  &.mar16rpx {
+    margin-left: 16rpx;
+  }
+}
+
+// 退款状态
+
+.PENDING,
+.TO_BE_REFUND,
+.WAIT_AUDIT,
+.REJECTED,
+.REFUSE {
+  color: #f86c4d !important;
+  font-weight: bold;
+}
+.RESCINDED,
+.REVOKED,
+.CLOSED {
+  color: #000000 !important;
+  font-weight: bold;
+}
+.FINISH,
+.CONSENTED,
+.REFUND {
+  color: #1d9bdc !important;
+  font-weight: bold;
+}
+.border-top {
+  border-top: 1rpx solid #e5e5e5;
+}
+//订单状态
+.WAIT_PAYMENT {
+  //待付款
+  color: #f86c4d;
+}
+.DELIVERING {
+  //配送中
+  color: #1d9bdc;
+}
+
+.h-address-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // min-width: 52rpx;
+  padding: 0 8rpx;
+  height: 32rpx;
+  line-height: 30rpx;
+  border-radius: 6rpx;
+  border: 1rpx solid #e0515f;
+  color: #e0515f;
+  font-size: 18rpx;
+  // text-align: center;
+  margin-right: 8rpx;
+}
+.h-address-tag-other {
+  @extend .h-address-tag;
+  color: #1d9bdc;
+  border-color: #1d9bdc;
+}
+// 数字门店优惠券标签
+.coupon-tag-bar {
+  // width: 310rpx;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  margin: bottom 16rpx;
+}
+.coupon-tag {
+  width: fit-content;
+  height: 36rpx;
+  line-height: 17rpx;
+  padding: 0rpx 8rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #f86c4d;
+  font-size: 20rpx;
+  color: #f86c4d;
+  white-space: nowrap;
+  margin-right: 8rpx;
+  display: flex;
+  align-items: center;
+  .coupon-tag-no {
+    font-weight: bold;
+  }
+}

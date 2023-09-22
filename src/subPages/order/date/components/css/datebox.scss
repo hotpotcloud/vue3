@@ -1,0 +1,21 @@
+//月视图
+.day-by-month {
+  border: 2rpx solid transparent;
+  text-align: center;
+  color: #666666;
+  //   width: 82rpx;
+  height: 194rpx;
+  background: #fff;
+  padding: 16rpx 4rpx 4rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+.active-month {
+  border-color: #8bd0ff;
+  color: #1d9bdc;
+  background-color: #e4f4ff;
+}
+// 非本月
+.sleep-month {
+  color: #a9a9a9;
+}

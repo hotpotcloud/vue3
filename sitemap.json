@@ -1,0 +1,10 @@
+{
+    "rules":[
+        {
+        "action": "allow",
+        "page": "*",
+        "params": ["a", "b"],
+        "matching": "exact"
+      }
+    ]
+}

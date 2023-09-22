@@ -1,0 +1,31 @@
+.fuckpro {
+  background: #fff;
+}
+.sw-goods {
+  padding-top: 30rpx;
+  background-color: #f0f;
+}
+
+// 头部
+.topbox {
+  padding-bottom: 26rpx;
+  border-bottom: 2rpx solid #f1f1f1;
+}
+.icon_box {
+  margin-top: 28rpx;
+  text-align: center;
+  .open_iocn {
+    margin: 0 auto;
+    .oepnimg {
+      width: 59rpx;
+      height: 12rpx;
+    }
+  }
+  .week_icon {
+    width: 64rpx;
+    height: 8rpx;
+    background-color: #f1f1f1;
+    border-radius: 8rpx;
+    margin: 0 auto;
+  }
+}
